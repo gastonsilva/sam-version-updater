@@ -1,0 +1,15 @@
+{
+  "name": "sam-version-updater",
+  "version": "1.0.0",
+  "description": "A simple updater to use with conventional-changelog/standard-version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "author": "gastonsilva",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.0.0",
+    "yaml-cfn": "^0.3.0"
+  }
+}
