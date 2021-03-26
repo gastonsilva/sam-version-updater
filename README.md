@@ -1,6 +1,6 @@
 # SAM-Version-Updater
 
-This is a simple module for [standard-version](https://github.com/conventional-changelog/standard-version) to update Globals.Function.Tags.SAMVersion in a [SAM](https://aws.amazon.com/serverless/sam/)'s template.yaml file
+This is a simple module for [standard-version](https://github.com/conventional-changelog/standard-version) to update Globals.Function.Tags.version in a [SAM](https://aws.amazon.com/serverless/sam/)'s template.yaml file
 
 ## Usage
 
