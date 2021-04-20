@@ -9,5 +9,5 @@ module.exports.readVersion = function (contents) {
 module.exports.writeVersion = function (contents, version) {
     const yaml = YAML.load(contents, {schema: schema})
     yaml.Globals.Function.Tags.version = version
-    return YAML.dump(yaml, {schema: schema})
+    return YAML.dump(yaml, {schema: schema, lineWidth: -1})
 }
